@@ -433,6 +433,10 @@
       </section>
     </main>
 
+
+
+
+    
     <footer class="page-footer">
       <div class="container container-footer">
         <div class="footer-logo-wrap">
@@ -476,11 +480,37 @@
               </a>
             </li>
           </ul>
+
+
+
+          <div class="footer-element">
+            <p class="footer-paragraph-text">Subscribe</p>
+            <form class="footer-form">
+            <label aria-label="footer-email" class="footer-label">
+              <input class="footer-input"
+               type="email"
+              name="email"
+              id="email"
+              placeholder="E-mail"/>
+            </label>
+
+            <button type="submit" class="footer-btn">Subscribe
+              <svg class="icon-first" width="24" height="24">
+                <use href="./images/icons.svg#icon-frame"></use>
+              </svg> 
+            </button>
+          </form>
+        </div>
+          
+
+
         </div>
       </div>
     </footer>
 
-    <div class="backdrop is-open">
+
+
+    <div class="backdrop">
       <div class="modal">
         <button type="button" class="modal-close-btn"><svg class="modal-close-icon" width="8" height="8">
                   <use href="./images/icons.svg#icon-close"></use>
@@ -546,8 +576,7 @@ id="user-name"/>
 </div>
 
 
-
-<div class="modal-field">
+<div class="modal-comment-wrap">
   <label 
   for="user-comment"
   class="modal-label">Comment
@@ -558,8 +587,6 @@ id="user-comment"
 class="modal-textarea"
 placeholder="Text input"></textarea>
               </div>
-
-
               <div class="modal-field">
                 <input type="checkbox"
                 name="user-privacy"
@@ -571,22 +598,14 @@ placeholder="Text input"></textarea>
                   <span class="modal-checkbox">
                     <svg class="modal-checkbox-item" width="10" height="8">
                     <use href="./images/icons.svg#icon-vector"></use>
-                  </svg> </span>I accept the terms and conditions of the <a  class="policy-accept">Privacy Policy</a></label>
+                  </svg> </span>I accept the terms and conditions of the&nbsp;<a  class="policy-accept">Privacy Policy</a></label>
 
               </div>
-
-
-
 
 <button type="submit" class="modal-btn">Send</button>
                 </form>
       </div>
-    </div>
-
-    
-                <svg class="icon-first" width="24" height="24">
-                  <use href="./images/icons.svg#icon-frame"></use>
-                </svg>        
+    </div>      
     </svg>
   </body>
 </html>
