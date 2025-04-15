@@ -426,6 +426,10 @@ img {
   display: inline-block;
   margin-bottom: 16px;
 }
+
+.footer-soc-media {
+  margin-right: 80px;
+}
 .logo-part {
   color: #f4f4fd;
 }
