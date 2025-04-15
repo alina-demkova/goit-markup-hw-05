@@ -411,7 +411,6 @@ img {
 
 /* ------------FOOTER--------- */
 
-
 .page-footer {
   background-color: #2e2f42;
   padding: 100px 0;
@@ -528,11 +527,12 @@ cursor: pointer;
 background-color: #4D5AE5;
 border: none;
 border-radius: 4px;
-
-
-
-
 }
+
+
+
+
+
 
 
 .backdrop {
