@@ -725,7 +725,7 @@ img {
   color: #8e8f99;
   display: flex;
   align-items: center;
-  display: inline-flex;
+  display: block;
 }
 
 .modal-checkbox {
@@ -738,7 +738,7 @@ img {
   align-items: center;
   justify-content: center;
   fill: transparent;
-  
+
 }
 .modal-check:checked + .modal-check-text span {
   background-color: #404bbf;
