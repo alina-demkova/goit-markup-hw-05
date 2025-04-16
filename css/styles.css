@@ -628,7 +628,7 @@ img {
   margin-bottom: 8px;
 }
 .modal-field {
-  margin-bottom: 24px;
+  margin-bottom: 8px;
 }
 .modal-input {
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -731,16 +731,14 @@ img {
 .modal-checkbox {
   width: 16px;
   height: 16px;
-  border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 2px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: inline-flex; 
   align-items: center;
   justify-content: center;
   fill: transparent;
-  margin-right: 12px;
+  
 }
 .modal-check:checked + .modal-check-text span {
   background-color: #404bbf;
